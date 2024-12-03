@@ -13,6 +13,8 @@
     WishlistDAOImpl wishlistDAO = new WishlistDAOImpl();
     ProductDAOImpl productDAO = new ProductDAOImpl();
     List<Wishlist> wishlistItems = wishlistDAO.getWishlistByUserId(userId);
+    //이 페이지가 무슨 일을 하는지 모르겠다. 솔직히 근데 지우면 망할것같다. 그냥 내버려 두자
+    //I don't know why the error occurred. First of all, the program runs well.
 %>
 
 <!DOCTYPE html>
