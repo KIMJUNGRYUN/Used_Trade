@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource 
+      name="jdbc/pool" 
+      auth="Container" 
+      type="javax.sql.DataSource"
+      maxWait="5000"
+      username="root" 
+      password="1234" 
+      driverClassName="com.mysql.jdbc.Driver"
+      url="jdbc:mysql://localhost:3306/used_trade?useSSL=false"/>
+</Context>
